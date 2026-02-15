@@ -20,7 +20,44 @@
             padding: 2rem;
             text-align: center;
         }
+         .project-row {
+         display: flex;
+        align-items: normal;   
+        gap: 20px;             
+         margin-bottom: 2rem;
+        }
 
+        .project-row img {
+          width: 300px;
+         height: auto;
+          border-radius: 6px;
+         }
+
+         .project-text {
+         flex: 1;   
+        }
+        .project-grid {
+        display: flex;
+        gap: 170px;              
+        justify-content: center;
+        margin-bottom: 2rem;
+         }
+
+        .project-item {
+         flex: 1;               
+          max-width: 450px;
+          text-align: center;
+         }
+
+          .project-item img {
+         width: 100%;
+        height: auto;
+        border-radius: 6px;
+          }
+
+        .project-item h3 {
+         margin-top: 15px;
+         }
         nav {
             background: #ffffff;
             padding: 1rem;
@@ -34,19 +71,23 @@
             color: #026259;
             font-weight: bold;
         }
-        img {
-             max-width: 100%;
-             height: auto;
-             display: block;
-            
-        }
-
+        .large {
+         width: 1100px;
+          height: auto;
+         
+         }
+         
+        .fulllarge {
+        width: 400px;
+        height: auto;
+         
+         }
         nav a:hover {
             color: #fcfcfc;
         }
 
         section {
-            max-width: 900px;
+            max-width: 1100px;
             margin: 2rem auto;
             padding: 1rem;
             background: white;
@@ -94,7 +135,7 @@
 
 <nav>
     <a href="#about">About</a>
-    <a href="https://drive.google.com/file/d/1Lx8N15in-doGKn9H9p87QrNfIZ43Eqip/view?usp=sharing">My Resume</a>
+    <a href="https://drive.google.com/file/d/15MRLGmwVISypzi8r9HSSYe7-sr3FzH8L/view?usp=sharing">My Resume</a>
     <a href="#skills">Skills</a>
     <a href="#Graphic Desgin Projects">Graphic Desgin Projects</a>
     <a href="#3D Projects">3D Projects</a>
@@ -102,13 +143,19 @@
 </nav>
 
 <section id="about">
+    <div class="project-row">
+        <img src="C:\Users\anju\Desktop\html\anju.jpg" class="fulllarge" >
+        <div class="project-text">
     <h2>About Me</h2>
     <p>
-        Creative Social Media Manager | Film & Video Specialist <br>
+         Creative Social Media Manager | Film & Video Specialist <br>
 Anjana Sathyakeerthi is a Netherlands-based Social Media Content Manager, currently completing a Game Art & Animation degree. Her work centers on story-led digital content, blending film, motion graphics, and AI-enhanced workflows to craft engaging narratives for contemporary platforms.
 Working with emerging technology, she integrates AI tools into content production and story telling—from ideation and visual development to post-production.
 She is also a 3D artist and animator. Her background in cinematic worldbuilding, character creation, and performance animation brings depth, texture, and emotional nuance to social-first content.
     </p>
+    </div>
+    </div>
+    
 </section>
 
 
@@ -139,38 +186,57 @@ She is also a 3D artist and animator. Her background in cinematic worldbuilding,
     </ul>
 </section>
 
-<section id="Graphic Desgin projects">
+<section id="Graphic Desgin Projects">
     <h2>Graphic Desgin Projects</h2>
-    <img src="https://drive.google.com/file/d/1ikQboBX_zjSt3marbqkYRupOe-qRlFFq/view?usp=sharing"  >
+    <img src="C:\Users\anju\Desktop\html\gdd.jpg" class="large"  >
+
+</section>
+
+<section id="3D Projects">
+    <h2>3D Projects</h2>
+
+    <div class="project-grid">
+        <div class="project-item">
+        <a href="https://drive.google.com/file/d/1UWMUDeC-01LfV6MRsfQR4gGdYl_elVnu/view?usp=drive_link">
+            <img src="C:\Users\anju\Desktop\html\antha.jpg" class="fulllarge" ></a> 
+             <h3>Antha: The Dying City</h3>
+        <p>A short film blending 3D and 2D sequences, Antha: The Dying City is a meditative, visual story about loss, resilience, and the fragile bond between humans and the places they call home. </p>
+    </div>
+    <div class="project-item">
+        <a href="https://drive.google.com/file/d/1r7EbyFE755FJDmESt_Atz-NzbOdN_n6h/view?usp=sharing">
+            <img src="C:\Users\anju\Desktop\html\last.jpg" class="fulllarge" ></a>
+             <h3>The Last Upload-AI Short Film </h3>
+        <p>Short film created by editing and assembling AI-generated content into a cohesive final output using free tools.</p>
+    </div> 
+</div>
+<div class="project-grid">
+    <div class="project-item">
+        <a href="https://drive.google.com/file/d/1A1K8d7zFp3RHqRqvQKAD65P468dQFoBf/view?usp=sharing">
+            <img src="C:\Users\anju\Desktop\html\Beat ‘em Up Game.jpg" class="fulllarge" ></a>
+             <h3>Beat ‘em up game </h3>
+        <p>A 2.5D medieval-style hack-and-slash game with a simple design, featuring pixel art characters in 3D environments.</p>
+    </div>
+        <div class="project-item">
+        <a href="https://drive.google.com/file/d/1m8bxcd4AWajVl63CwDgzn9ztvc_h2560/view?usp=sharing">
+            <img src="C:\Users\anju\Desktop\html\unplugge.jpg" class="fulllarge" ></a>
+            <h3>Unplugged</h3>
+        <p>A short film that depicts the reality of today's society in which some use technology like the tool that it was meant to be, while others depend on it like a crutch they cannot live without.</p>
+    </div>
+      
+</div>
 
    
 
 </section>
 
-<section id="projects">
-    <h2>Selected Projects</h2>
-
-    <div class="project">
-        <h3>Antha: The Dying City</h3>
-        <p>Produced and edited digital promotional content including motion graphics and social media assets.</p>
-    </div>
-
-    <div class="project">
-        <h3>Unplugged – Short Film</h3>
-        <p>Created motion graphics and web-ready promotional trailers.</p>
-    </div>
-
-    <div class="project">
-        <h3>AI Short Film – The Last Upload</h3>
-        <p>Developed short-form video content using AI tools and digital editing workflows.</p>
-    </div>
-
-</section>
-
 <section id="contact">
+    <p>Seeking a role as a Social Media Manager where I can leverage the latest AI tools to tell your stories by producing engaging campaigns, motion graphics, and post-production content for your online platforms and creative projects.</p>
     <h2>Contact</h2>
     <p>Email: anjanasathyakeerthi@gmail.com</p>
-    <p>LinkedIn: Add your link here</p>
+    <p>+31-620690685</p>
+    <a href="https://www.linkedin.com/in/anjana-sathyakeerthi-7a802615b/">linkedin|</a>
+    <a href="https://www.artstation.com/anjanasathyakeerthi">Artstation</a>
+    
 </section>
 
 <footer>
@@ -179,5 +245,3 @@ She is also a 3D artist and animator. Her background in cinematic worldbuilding,
 
 </body>
 </html>
-
-
